@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    # Check Query Transaction
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+    # Run data.sql after generate DB Tables
+    defer-datasource-initialization: true
